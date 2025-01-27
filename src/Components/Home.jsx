@@ -73,7 +73,7 @@ const Home = () => {
                 </Link>
                 <button
                   onClick={() => deleteUser(user.id)}
-                  className="bg-red-500 text-white px-3 py-1 rounded"
+                  className="bg-red-500 text-white px-3 py-1 rounded cursor-pointer"
                 >
                   Delete
                 </button>
@@ -85,7 +85,7 @@ const Home = () => {
       <div className="flex justify-center mt-4">
         <button
           onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
-          className="mx-2 bg-gray-500 text-white px-3 py-1 rounded"
+          className="mx-2 bg-gray-500 text-white px-3 py-1 rounded cursor-pointer"
         >
           Previous
         </button>
@@ -95,7 +95,7 @@ const Home = () => {
               prev * USERS_PER_PAGE < users.length ? prev + 1 : prev
             )
           }
-          className="mx-2 bg-gray-500 text-white px-3 py-1 rounded"
+          className="mx-2 bg-gray-500 text-white px-3 py-1 rounded cursor-pointer"
         >
           Next
         </button>
