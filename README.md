@@ -24,11 +24,11 @@ A simple React-based user management application that allows users to view, add,
 
 **Install Dependencies**
 
-    __npm install__
+    npm install
       
 **Run the Application**
     
-      __npm run dev__
+      npm run dev
       
 Open in Browser The app will be available at http://localhost:5173/ (Vite default port).
 
